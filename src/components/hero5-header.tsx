@@ -36,7 +36,9 @@ export const HeroHeader = () => {
                                 href="/"
                                 aria-label="home"
                                 className="flex items-center space-x-2">
-                                <Logo />
+                                <h1 className="text-3xl font-bold" style={{ fontFamily: 'Canva Sans, sans-serif' }}>
+                                    Stockic
+                                </h1>
                             </Link>
 
                             <button

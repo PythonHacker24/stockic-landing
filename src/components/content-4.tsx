@@ -13,12 +13,6 @@ export default function ContentSection() {
                         <p>
                             Stockic <span className="font-bold">with it's AI capabilities and Powerful UI</span> provides all the insights you need complied into handful of sentences by removing unnecessary details and providing you the option to read full news article only if you want to.
                         </p>
-                        <Button asChild variant="secondary" size="sm" className="gap-1 pr-1.5">
-                            <Link href="#">
-                                <span>Learn More</span>
-                                <ChevronRight className="size-2" />
-                            </Link>
-                        </Button>
                     </div>
                 </div>
             </div>
