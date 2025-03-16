@@ -2,30 +2,30 @@ import { Logo } from '@/src/components/logo'
 import Link from 'next/link'
 
 const links = [
-//    {
-//        title: 'Features',
-//        href: '#',
-//    },
-//    {
-//        title: 'Solution',
-//        href: '#',
-//    },
-//    {
-//        title: 'Customers',
-//        href: '#',
-//    },
-//    {
-//        title: 'Pricing',
-//        href: '#',
-//    },
-//    {
-//        title: 'Help',
-//        href: '#',
-//    },
-//    {
-//        title: 'About',
-//        href: '#',
-//    },
+    {
+        title: 'Features',
+        href: '#',
+    },
+    {
+        title: 'Solution',
+        href: '#',
+    },
+    {
+        title: 'Customers',
+        href: '#',
+    },
+    {
+        title: 'Pricing',
+        href: '#',
+    },
+    {
+        title: 'Help',
+        href: '#',
+    },
+    {
+        title: 'About',
+        href: '#',
+    },
 ]
 
 export default function FooterSection() {
