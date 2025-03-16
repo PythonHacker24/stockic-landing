@@ -6,6 +6,8 @@ import { AnimatedGroup } from '@/components/motion-primitives/animated-group'
 import { HeroHeader } from '@/src/components/hero5-header'
 // import { LogoCloud } from '@/src/components/logo-cloud'
 import Image from 'next/image'
+import Link from 'next/link'
+import { ArrowRight, ChevronRight } from 'lucide-react'
 
 const transitionVariants = {
     item: {
@@ -43,11 +45,31 @@ export default function HeroSection() {
                 <section>
                     <div className="relative mx-auto max-w-6xl px-6 pt-32 lg:pb-16 lg:pt-48">
                         <div className="relative z-10 mx-auto max-w-4xl text-center">
+                            <AnimatedGroup variants={transitionVariants}>
+                                <Link
+                                    href="https://docs.stockic.in"
+                                    target="_blank"
+                                    className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950">
+                                    <span className="text-foreground text-sm">Introducing Stockic Docs for Developers</span>
+                                    <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
+
+                                    <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
+                                        <div className="flex w-12 -translate-x-1/2 duration-500 ease-in-out group-hover:translate-x-0">
+                                            <span className="flex size-6">
+                                                <ArrowRight className="m-auto size-3" />
+                                            </span>
+                                            <span className="flex size-6">
+                                                <ArrowRight className="m-auto size-3" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </AnimatedGroup>
                             <TextEffect
                                 preset="fade-in-blur"
                                 speedSegment={0.3}
                                 as="h1"
-                                className="text-balance text-4xl font-medium sm:text-5xl md:text-6xl">
+                                className="text-balance mt-8 text-4xl font-medium sm:text-5xl md:text-6xl">
                                 You are Wasting Your Time Reading Junk News Content 
                             </TextEffect>
                             <TextEffect
@@ -109,7 +131,7 @@ export default function HeroSection() {
                                 as="p"
                                 className="mx-auto mt-5 max-w-2xl text-pretty text-xs">
 
-                                Join the waitlist and get 3 months of premium subscription for free! 
+                                Join the waitlist and get 3 months of Premium Subscription for free! 
                             </TextEffect>
 
                         </div>

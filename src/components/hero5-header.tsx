@@ -82,7 +82,7 @@ export const HeroHeader = () => {
                                     variant="outline"
                                     size="sm"
                                     className={cn(isScrolled && 'lg:hidden')}>
-                                    <Link href="#">
+                                    <Link href="https://github.com/Stockic" target="_blank">
                                         <span>GitHub</span>
                                     </Link>
                                 </Button>
@@ -90,7 +90,7 @@ export const HeroHeader = () => {
                                     asChild
                                     size="sm"
                                     className={cn(isScrolled && 'lg:hidden')}>
-                                    <Link href="#">
+                                    <Link href="https://www.linkedin.com/company/stockic/" target="_blank">
                                         <span>LinkedIn</span>
                                     </Link>
                                 </Button>
