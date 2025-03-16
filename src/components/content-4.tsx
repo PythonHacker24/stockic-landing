@@ -7,11 +7,11 @@ export default function ContentSection() {
         <section className="py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="grid gap-6 md:grid-cols-2 md:gap-12">
-                    <h2 className="text-4xl font-medium">The Lyra ecosystem brings together our models, products and platforms.</h2>
+                    <h2 className="text-4xl font-medium">Stockic maximizes your Experience with Better News and Premium UI</h2>
                     <div className="space-y-6">
-                        <p>Lyra is evolving to be more than just the models. It supports an entire ecosystem — from products to the APIs and platforms helping developers and businesses innovate.</p>
+                        <p>Reading news from random sources is an utter waste of time. You are bombarded with information you might never need, consuming your cognative efforts which needs to go in better stuff.</p>
                         <p>
-                            Tailus UI. <span className="font-bold">It supports an entire ecosystem</span> — from products innovate. Sit minus, quod debitis autem quia aspernatur delectus impedit modi, neque non id ad dignissimos? Saepe deleniti perferendis beatae.
+                            Stockic <span className="font-bold">with it's AI capabilities and Powerful UI</span> provides all the insights you need complied into handful of sentences by removing unnecessary details and providing you the option to read full news article only if you want to.
                         </p>
                         <Button asChild variant="secondary" size="sm" className="gap-1 pr-1.5">
                             <Link href="#">

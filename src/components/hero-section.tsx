@@ -48,7 +48,7 @@ export default function HeroSection() {
                                 speedSegment={0.3}
                                 as="h1"
                                 className="text-balance text-4xl font-medium sm:text-5xl md:text-6xl">
-                                Your gateway to endless entertainment experiences
+                                You are Wasting Your Time Reading Junk News Content 
                             </TextEffect>
                             <TextEffect
                                 per="line"
@@ -57,7 +57,8 @@ export default function HeroSection() {
                                 delay={0.5}
                                 as="p"
                                 className="mx-auto mt-12 max-w-2xl text-pretty text-lg">
-                                Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.
+
+                                Stockic provides summarized news insights without interfering with the content and saves your time from information overload
                             </TextEffect>
 
                             <AnimatedGroup
@@ -80,7 +81,7 @@ export default function HeroSection() {
                                         <Mail className="pointer-events-none absolute inset-y-0 left-4 my-auto size-4" />
 
                                         <input
-                                            placeholder="Your mail address"
+                                            placeholder="Your Email address"
                                             className="h-12 w-full bg-transparent pl-12 focus:outline-none"
                                             type="email"
                                         />
@@ -90,7 +91,7 @@ export default function HeroSection() {
                                                 aria-label="submit"
                                                 size="sm"
                                                 className="rounded-(--radius)">
-                                                <span className="hidden md:block">Get Started</span>
+                                                <span className="hidden md:block">Sign Up</span>
                                                 <SendHorizonal
                                                     className="relative mx-auto size-5 md:hidden"
                                                     strokeWidth={2}
@@ -100,6 +101,17 @@ export default function HeroSection() {
                                     </div>
                                 </form>
                             </AnimatedGroup>
+                            <TextEffect
+                                per="line"
+                                preset="fade-in-blur"
+                                speedSegment={0.3}
+                                delay={0.5}
+                                as="p"
+                                className="mx-auto mt-5 max-w-2xl text-pretty text-xs">
+
+                                Join the waitlist and get 3 months of premium subscription for free! 
+                            </TextEffect>
+
                         </div>
                         <div className="mx-auto md:-mt-20 lg:-mt-40">
                             <AnimatedGroup

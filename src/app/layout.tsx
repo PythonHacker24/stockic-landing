@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-    title: 'Shadcn Blocks',
-    description: 'Speed up your workflow with responsive, pre-built UI blocks designed for marketing websites.',
+    title: 'Stockic',
+    description: 'Less Noise More Insights',
 }
 
 export default function RootLayout({
@@ -27,11 +27,11 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased`}>
-                <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+                <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
                     {children}
                 </ThemeProvider>
             </body>
-            <GoogleAnalytics gaId="G-6KY6TLKXKY" />
+            <GoogleAnalytics gaId="" />
         </html>
     )
 }
