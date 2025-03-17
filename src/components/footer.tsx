@@ -20,8 +20,9 @@ export default function FooterSection() {
     return (
         <footer className="py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
+                <div className="flex flex-wrap items-center justify-between gap-4 border-b pb-8"></div>
                 <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-                <h1 className="text-3xl font-bold" style={{ fontFamily: 'Canva Sans, sans-serif' }}>
+                <h1 className="text-3xl mt-10 font-bold" style={{ fontFamily: 'Canva Sans, sans-serif' }}>
                     Stockic
                 </h1>
 

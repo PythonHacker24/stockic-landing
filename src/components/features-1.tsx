@@ -8,7 +8,7 @@ export default function Features() {
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Tailored for Fast Lifestyle</h2>
-                    <p className="mt-4">Stockic knows you don't have much time to read news. So we make sure you read what's necessary.</p>
+                    <p className="mt-4">Stockic knows you don't have much time to read news. So we make sure you only read what's necessary.</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">

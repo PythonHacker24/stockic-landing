@@ -3,7 +3,7 @@ export default function StatsSection() {
         <section className="py-12 md:py-20">
             <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
                 <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
-                    <h2 className="text-4xl font-medium lg:text-5xl">Stockic AI Metrics to Blow Our Competitors</h2>
+                    <h2 className="text-4xl font-medium lg:text-5xl">Stockic AI Metrics for Maximum Value Per Article</h2>
                     <p>Stockic keeps it's AI updated with the latest Open Source Models out there to provide better news summarization without bias</p>
                 </div>
 
@@ -23,6 +23,10 @@ export default function StatsSection() {
                         <p>Automated Readability Index (ARI)</p>
                         <p>0.11 more than Inshorts</p>
                     </div>
+                </div>
+
+                <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
+                    <p className="text-4xl font-medium lg:text-xs">*Tested on an automated testbench with a dataset of 30 random news articles summarized by Inshorts and Stockic AI</p>
                 </div>
             </div>
         </section>
