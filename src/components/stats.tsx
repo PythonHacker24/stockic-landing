@@ -26,7 +26,7 @@ export default function StatsSection() {
                 </div>
 
                 <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
-                    <p className="text-4xl font-medium lg:text-xs">*Tested on an automated testbench with a dataset of 30 random news articles summarized by Inshorts and Stockic AI</p>
+                    <p className="text-xs font-medium lg:text-xs">*Tested on an automated testbench with a dataset of 30 random news articles summarized by Inshorts and Stockic AI</p>
                 </div>
             </div>
         </section>
